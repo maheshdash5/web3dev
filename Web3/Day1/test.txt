@@ -1,0 +1,33 @@
+Hello World!
+
+How Does Blockchain Work?
+Blocks:
+Data is stored in "blocks."
+Each block contains:
+A list of transactions.
+A timestamp.
+A cryptographic hash of the previous block.
+Chain:
+Blocks are linked together in a chronological order.
+This creates a "chain" of blocks, hence the name "blockchain."
+💡
+Important Terms
+Nonce:
+A unique number that miners must find to produce a valid hash.
+Used only once, it ensures the resulting hash satisfies the blockchain's difficulty conditions.
+Finding Nonce 
+Miners and Compute Power
+Miners produce blocks in the blockchain.
+The probability of producing the next block and earning the reward increases with more compute power.
+Compute power is needed to calculate the correct nonce.
+Nonce and Proof of Work (PoW)
+The nonce is a number that, when added to the block data and hashed, produces a hash meeting the network's difficulty criteria.
+The process of finding this nonce is known as Proof of Work (PoW).
+Consensus Mechanism
+A method ensuring all participants agree on the blockchain's state and the validity of transactions.
+Acts as a rulebook for validating transactions and blocks.
+Proof of Work (PoW)
+A consensus mechanism used in blockchain networks.
+Requires solving complex mathematical problems to find the correct nonce.
+Ensures the security and integrity of the blockchain by validating transactions and adding new blocks.
+ 
